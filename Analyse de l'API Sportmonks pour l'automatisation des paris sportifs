@@ -1,0 +1,45 @@
+# Analyse de l'API Sportmonks pour l'automatisation des paris sportifs
+
+## Présentation de Sportmonks
+
+Sportmonks est une plateforme de données sportives qui propose une API complète pour accéder à des informations détaillées sur les événements sportifs, notamment le football. La plateforme est utilisée par plus de 30 000 clients et offre des données fiables, rapides et vérifiées.
+
+## Caractéristiques principales
+
+- **Données en temps réel** : Scores en direct, statistiques détaillées, calendriers de matchs
+- **Couverture étendue** : Nombreuses ligues et tournois, dont la Ligue 1
+- **Essai gratuit** : Possibilité de tester l'API avant engagement
+- **Documentation structurée** : API propre et facile à utiliser selon les témoignages clients
+- **Fiabilité** : Données vérifiées par des équipes de scouts dédiées
+
+## Avantages pour notre projet
+
+1. **Disponibilité immédiate** : Contrairement à MyBettingAPI qui est encore en développement
+2. **Essai gratuit** : Permet de développer un prototype sans investissement initial
+3. **Données complètes** : Accès à toutes les informations nécessaires pour l'analyse des paris
+4. **API structurée** : Facilite l'intégration dans notre programme d'automatisation
+5. **Bonne réputation** : Témoignages positifs d'utilisateurs sur la fiabilité et la rapidité
+
+## Limitations potentielles
+
+1. **Coût après la période d'essai** : Nécessitera probablement un abonnement payant
+2. **Pas de mention explicite des cotes de paris** : À vérifier si les données incluent les cotes ou uniquement les statistiques sportives
+3. **Intégration avec les plateformes crypto** : Nécessitera un développement supplémentaire
+
+## Prochaines étapes recommandées
+
+1. **S'inscrire à l'essai gratuit** de Sportmonks pour explorer la documentation complète de l'API
+2. **Vérifier la disponibilité des données de cotes** dans l'API ou identifier une source complémentaire
+3. **Identifier une plateforme de paris sportifs crypto** compatible avec notre approche d'automatisation
+4. **Développer un prototype** utilisant l'API Sportmonks pour valider la faisabilité technique
+5. **Évaluer les coûts à long terme** et les alternatives si nécessaire
+
+## Alternatives à considérer
+
+1. **Développement d'un scraper éthique** pour collecter les données de cotes directement depuis les sites de paris
+2. **OpticOdds** : Une autre API spécialisée dans les cotes de paris sportifs (nécessite également une licence)
+3. **Combinaison de sources gratuites** : Utiliser plusieurs APIs gratuites mais limitées pour construire une solution complète
+
+## Conclusion
+
+Sportmonks apparaît comme la solution la plus viable à court terme pour développer notre programme d'automatisation des paris sportifs. L'essai gratuit nous permettra de valider la faisabilité technique avant tout engagement financier. Cependant, il sera important de valider avec l'utilisateur si un investissement dans une API payante est envisageable après la phase de prototypage.

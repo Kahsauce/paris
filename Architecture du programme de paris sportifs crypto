@@ -1,0 +1,128 @@
+# Architecture du programme de paris sportifs crypto
+
+## Vue d'ensemble
+
+L'architecture proposée est conçue pour être modulaire, évolutive et adaptable aux différentes sources de données. Elle permettra de gérer à la fois l'intégration avec Sportmonks pendant la phase de développement initial et le scraping éthique de Sportsbet.io pour les données spécifiques.
+
+## Structure générale
+
+```
+paris_sportifs_crypto/
+├── backend/
+│   ├── api/
+│   │   ├── sportmonks_api.py
+│   │   ├── sportsbet_scraper.py
+│   │   └── data_integration.py
+│   ├── analysis/
+│   │   ├── odds_analyzer.py
+│   │   ├── prediction_engine.py
+│   │   └── statistics.py
+│   ├── database/
+│   │   ├── models.py
+│   │   ├── db_manager.py
+│   │   └── data_storage.py
+│   └── utils/
+│       ├── config.py
+│       ├── logger.py
+│       └── helpers.py
+├── frontend/
+│   ├── assets/
+│   │   ├── css/
+│   │   ├── js/
+│   │   └── images/
+│   ├── components/
+│   │   ├── dashboard.js
+│   │   ├── bet_selector.js
+│   │   ├── statistics_view.js
+│   │   └── settings.js
+│   └── index.html
+└── main.py
+```
+
+## Composants principaux
+
+### 1. Backend
+
+#### Module API
+- **sportmonks_api.py** : Intégration avec l'API Sportmonks pour les données sportives
+- **sportsbet_scraper.py** : Scraper éthique pour Sportsbet.io
+- **data_integration.py** : Fusion des données provenant de différentes sources
+
+#### Module d'analyse
+- **odds_analyzer.py** : Analyse des cotes et identification des opportunités
+- **prediction_engine.py** : Algorithmes de prédiction basés sur les données historiques
+- **statistics.py** : Calcul et suivi des statistiques de performance
+
+#### Module de base de données
+- **models.py** : Définition des modèles de données
+- **db_manager.py** : Gestion des opérations de base de données
+- **data_storage.py** : Stockage et récupération des données
+
+#### Utilitaires
+- **config.py** : Configuration du programme
+- **logger.py** : Journalisation des activités
+- **helpers.py** : Fonctions utilitaires diverses
+
+### 2. Frontend
+
+#### Assets
+- **css/** : Styles pour l'interface utilisateur
+- **js/** : Scripts JavaScript pour l'interactivité
+- **images/** : Ressources graphiques
+
+#### Composants
+- **dashboard.js** : Tableau de bord principal
+- **bet_selector.js** : Interface de sélection des paris
+- **statistics_view.js** : Visualisation des statistiques
+- **settings.js** : Configuration des préférences utilisateur
+
+### 3. Point d'entrée
+- **main.py** : Script principal pour lancer l'application
+
+## Flux de données
+
+1. **Collecte de données** : Les données sont récupérées via l'API Sportmonks et/ou le scraper Sportsbet.io
+2. **Intégration** : Les données sont normalisées et fusionnées
+3. **Analyse** : Les algorithmes analysent les cotes et identifient les opportunités
+4. **Stockage** : Les données et analyses sont stockées dans la base de données
+5. **Présentation** : L'interface utilisateur affiche les résultats et permet l'interaction
+6. **Action** : L'utilisateur valide ou rejette les paris proposés
+7. **Suivi** : Les résultats sont enregistrés pour améliorer les prédictions futures
+
+## Technologies recommandées
+
+### Backend
+- **Python** : Langage principal pour le backend
+- **FastAPI** : Framework API léger et performant
+- **SQLite/PostgreSQL** : Base de données pour le stockage
+- **Pandas** : Manipulation et analyse des données
+- **Scikit-learn** : Algorithmes de machine learning pour les prédictions
+- **BeautifulSoup/Selenium** : Outils de scraping
+
+### Frontend
+- **HTML5/CSS3** : Structure et style de l'interface
+- **JavaScript** : Interactivité côté client
+- **Chart.js** : Visualisation des données et statistiques
+- **Bootstrap** : Framework CSS pour une interface responsive
+
+## Considérations techniques
+
+### Sécurité
+- Stockage sécurisé des clés API
+- Protection contre les attaques CSRF/XSS
+- Validation des entrées utilisateur
+
+### Performance
+- Mise en cache des données fréquemment utilisées
+- Optimisation des requêtes de base de données
+- Scraping respectueux des ressources serveur
+
+### Évolutivité
+- Architecture modulaire permettant l'ajout de nouvelles sources de données
+- Séparation claire entre la logique métier et l'interface utilisateur
+- Possibilité d'ajouter de nouveaux algorithmes d'analyse
+
+### Maintenance
+- Journalisation complète pour faciliter le débogage
+- Tests automatisés pour garantir la stabilité
+- Documentation détaillée du code

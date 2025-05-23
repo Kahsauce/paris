@@ -1,0 +1,67 @@
+# Sélection de la plateforme de paris sportifs crypto
+
+## Critères de sélection
+
+Pour choisir la plateforme de paris sportifs crypto la plus adaptée à vos besoins, nous avons évalué plusieurs critères essentiels :
+
+1. **Compatibilité crypto** : Acceptation des principales cryptomonnaies
+2. **Interface utilisateur** : Ergonomie et facilité d'utilisation
+3. **Variété des sports** : Diversité des événements sportifs disponibles
+4. **Accessibilité des données** : Facilité d'extraction des informations (via API ou scraping)
+5. **Sécurité et fiabilité** : Réputation et mesures de protection
+6. **Frais et limites** : Coûts de transaction et limites de paris
+
+## Analyse comparative des plateformes
+
+### Sportsbet.io
+
+**Points forts :**
+- Interface utilisateur moderne et intuitive
+- Large couverture sportive (football, basketball, tennis, baseball, eSports, etc.)
+- Statistiques impressionnantes (19+ millions de paris acceptés mensuellement)
+- Acceptation de diverses cryptomonnaies
+- Fonctionnalités avancées (paris en direct, streaming)
+
+**Points faibles :**
+- Protection anti-bot avancée rendant le scraping difficile
+- Pas d'API publique documentée
+- Structure très dynamique utilisant des WebSockets
+
+### Cloudbet
+
+**Points forts :**
+- Plateforme établie dans le domaine des paris crypto
+- Acceptation de Bitcoin et autres cryptomonnaies
+- Interface moderne
+- Variété de sports couverts
+
+**Points faibles :**
+- Nécessite JavaScript pour fonctionner
+- Pas d'API publique clairement documentée
+- Protection anti-bot modérée
+
+## Recommandation finale
+
+Après analyse approfondie, **Sportsbet.io** apparaît comme la plateforme la plus adaptée à vos besoins pour les raisons suivantes :
+
+1. **Interface utilisateur supérieure** : Plus intuitive et agréable visuellement, correspondant à votre demande de "belle interface avec des gros boutons"
+2. **Volume d'activité** : Statistiques impressionnantes témoignant de sa fiabilité et popularité
+3. **Diversité sportive** : Couverture très large incluant sports traditionnels et eSports
+4. **Fonctionnalités avancées** : Paris en direct et options de visualisation enrichies
+
+## Stratégie d'intégration recommandée
+
+Pour maximiser l'efficacité tout en respectant votre contrainte budgétaire, nous recommandons une approche hybride :
+
+1. **Utilisation de Sportsbet.io** comme plateforme principale de paris
+2. **Développement initial avec Sportmonks** (période d'essai gratuite) pour la structure de base et les données sportives
+3. **Scraping limité et éthique** de Sportsbet.io pour les données spécifiques non disponibles via Sportmonks
+4. **Évaluation progressive** pour déterminer la meilleure stratégie à long terme
+
+Cette approche permet de :
+- Démarrer rapidement avec des données fiables
+- Minimiser les coûts initiaux
+- Créer une solution évolutive
+- Réduire les risques légaux et techniques
+
+La combinaison de ces éléments vous permettra de développer un programme d'automatisation de paris sportifs crypto efficace, tout en respectant votre contrainte budgétaire.
