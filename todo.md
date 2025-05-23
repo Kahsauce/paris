@@ -13,17 +13,15 @@
 - [x] Évaluer la documentation technique des API
 - [x] Identifier les limites d'appels API et restrictions
 - [x] Analyser les formats de données et la facilité d'intégration
-- [ ] Identifier les limites d'appels API et restrictions
-- [ ] Analyser les formats de données et la facilité d'intégration
 
 ## Sélection et conception
-- [ ] Sélectionner la plateforme la plus adaptée
-- [ ] Concevoir l'architecture du programme
-- [ ] Définir les fonctionnalités d'analyse automatisée
+- [x] Sélectionner la plateforme la plus adaptée
+- [x] Concevoir l'architecture du programme
+- [x] Définir les fonctionnalités d'analyse automatisée
 - [ ] Concevoir l'interface utilisateur
-- [ ] Planifier les fonctionnalités statistiques et graphiques
+- [x] Planifier les fonctionnalités statistiques et graphiques
 
 ## Validation et rapport
-- [ ] Préparer une synthèse comparative des plateformes
-- [ ] Rédiger une proposition détaillée pour l'utilisateur
+- [x] Préparer une synthèse comparative des plateformes
+- [x] Rédiger une proposition détaillée pour l'utilisateur
 - [ ] Valider les choix avec l'utilisateur
