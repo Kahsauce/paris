@@ -23,6 +23,8 @@ if curl -I https://example.com > /dev/null 2>&1; then
   if [ -f requirements.txt ]; then
     pip3 install -r requirements.txt
   fi
+  # Installation manuelle des bibliotheques utiles
+  pip3 install requests beautifulsoup4 pandas
 else
   echo "[Setup] Aucun acces reseau, dependances non installees"
 fi
