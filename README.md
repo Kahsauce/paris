@@ -23,8 +23,9 @@ Après la mise en place, vous pouvez lancer un test rapide :
 python paris_sportifs_crypto/main.py
 ```
 
-Ce script affiche des données fictives provenant des modules d'intégration.
-En cas d'absence de connexion, l'appel API renvoie un message d'erreur simulé.
+Ce script tente de récupérer les données de l'API et du site ciblé. En cas
+d'échec réseau, plusieurs essais sont effectués avant d'afficher un message
+d'erreur.
 
 ## Configuration de l'API DeepSeek
 
