@@ -14,3 +14,14 @@ python paris_sportifs_crypto/main.py
 ```
 
 Ce script affiche des données fictives provenant des modules d'intégration.
+
+## Configuration de l'API DeepSeek
+
+Copiez le fichier `.env.example` vers `.env` et renseignez votre clé API :
+
+```bash
+cp .env.example .env
+echo "DEEPSEEK_API_KEY=YOUR_KEY" >> .env  # remplacez YOUR_KEY par votre clé
+```
+
+Le programme chargera automatiquement cette clé pour interroger l'API DeepSeek.
