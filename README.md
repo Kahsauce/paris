@@ -9,10 +9,10 @@ Vous y trouverez un backend (API, analyse, base de données, utilitaires) et un 
 
 ## Mise en place de l'environnement
 
-Avant de lancer le programme, exécutez le script `setup.sh` pour installer les dépendances nécessaires et vérifier l'accès réseau :
+Le projet ne dépend plus d'aucune bibliothèque externe. Le script `setup.sh` reste fourni pour un environnement connecté, mais il est facultatif et n'échouera plus si le réseau est coupé :
 
 ```bash
-./setup.sh
+sudo ./setup.sh
 ```
 
 ## Lancer un test rapide
@@ -24,6 +24,7 @@ python paris_sportifs_crypto/main.py
 ```
 
 Ce script affiche des données fictives provenant des modules d'intégration.
+En cas d'absence de connexion, l'appel API renvoie un message d'erreur simulé.
 
 ## Configuration de l'API DeepSeek
 
