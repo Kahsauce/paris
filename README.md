@@ -7,7 +7,17 @@ Ce dépôt contient les documents et le squelette de code pour un programme d'au
 Le dossier `paris_sportifs_crypto` présente la structure initiale décrite dans la documentation.
 Vous y trouverez un backend (API, analyse, base de données, utilitaires) et un frontend minimal.
 
-Pour lancer un test rapide :
+## Mise en place de l'environnement
+
+Avant de lancer le programme, exécutez le script `setup.sh` pour installer les dépendances nécessaires et vérifier l'accès réseau :
+
+```bash
+./setup.sh
+```
+
+## Lancer un test rapide
+
+Après la mise en place, vous pouvez lancer un test rapide :
 
 ```bash
 python paris_sportifs_crypto/main.py
