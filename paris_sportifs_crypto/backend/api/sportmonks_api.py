@@ -9,9 +9,10 @@ from ..utils.config import API_KEY
 
 
 BASE_URL = "https://api.deepseek.com/v1"
+DEFAULT_ENDPOINT = "football/fixtures"
 
 
-def fetch_data(endpoint: str, retries: int = 3, delay: float = 2.0) -> dict:
+def fetch_data(endpoint: str = DEFAULT_ENDPOINT, retries: int = 3, delay: float = 2.0) -> dict:
     """Recupere les données depuis l'API DeepSeek en reessayant en cas d'echec."""
     if not API_KEY:
         return {"endpoint": endpoint, "data": {"error": "cle API manquante"}}

@@ -4,7 +4,7 @@ from backend.api.data_integration import get_combined_data
 
 
 def main() -> None:
-    data = get_combined_data("fixtures", "https://sportsbet.io/event")
+    data = get_combined_data("football/fixtures", "https://sportsbet.io/event")
     print(data)
 
 
